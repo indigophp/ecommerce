@@ -1,0 +1,29 @@
+{
+	"name": "indigophp/webshop",
+	"type": "fuelphp-component",
+	"description": "IndigoPHP Webshop component",
+	"license": "MIT",
+	"keywords": ["indigo", "webshop", "fuelphp"],
+	"homepage": "https://indigophp.com",
+	"authors": [
+		{
+			"name": "Tamás Barta",
+			"email": "barta.tamas.d@gmail.com"
+		},
+		{
+			"name": "Márk Sági-Kazár",
+			"email": "mark.sagikazar@gmail.com"
+		}
+	],
+	"require": {
+		"php": ">=5.4.0",
+		"composer/installers": "dev-master"
+	},
+	"autoload": {
+		"psr-4": {
+			"Indigo\\Webshop\\": "src/"
+		}
+	},
+	"prefer-stable": true,
+	"minimum-stability": "dev"
+}
