@@ -30,14 +30,7 @@ class Webshop extends Base
 	{
 		$this->_before();
 
-		if ( ! in_array($this->route->action, ['Login', 'Logout']))
-		{
-			return parent::before();
-		}
-		else
-		{
-			\View::setGlobal('admin_uri', $this->getUri());
-		}
+		return parent::before();
 	}
 
 	/**
