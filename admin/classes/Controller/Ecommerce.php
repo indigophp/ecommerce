@@ -12,11 +12,11 @@
 namespace Indigo\Admin\Controller;
 
 /**
- * Webshop Admin controller
+ * Ecommerce Admin controller
  *
  * @author Márk Sági-Kazár <mark.sagikazar@gmail.com>
  */
-class Webshop extends Base
+class Ecommerce extends Base
 {
 	use \Indigo\Common\Controller\Theme
 	{
@@ -40,6 +40,6 @@ class Webshop extends Base
 	 */
 	public function actionIndex()
 	{
-		return \View::forge('webshop/index.twig');
+		return \View::forge('ecommerce/index.twig');
 	}
 }
