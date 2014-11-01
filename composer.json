@@ -1,9 +1,9 @@
 {
-	"name": "indigophp/webshop",
+	"name": "indigophp/ecommerce",
 	"type": "fuelphp-component",
-	"description": "IndigoPHP Webshop component",
+	"description": "IndigoPHP Ecommerce component",
 	"license": "MIT",
-	"keywords": ["indigo", "webshop", "fuelphp"],
+	"keywords": ["indigo", "ecommerce", "fuelphp"],
 	"homepage": "https://indigophp.com",
 	"authors": [
 		{
@@ -21,7 +21,8 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"Indigo\\Webshop\\": "src/"
+			"Indigo\\Ecommerce\\": "src/",
+			"Indigo\\Admin\\": "admin/classes/"
 		}
 	},
 	"prefer-stable": true,

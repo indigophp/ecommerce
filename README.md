@@ -1,10 +1,10 @@
-# Indigo Webshop
+# Indigo Ecommerce
 
-[![Latest Version](https://img.shields.io/github/release/indigophp/webshop.svg?style=flat-square)](https://github.com/indigophp/webshop/releases)
+[![Latest Version](https://img.shields.io/github/release/indigophp/ecommerce.svg?style=flat-square)](https://github.com/indigophp/ecommerce/releases)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
-[![Total Downloads](https://img.shields.io/packagist/dt/indigophp/webshop.svg?style=flat-square)](https://packagist.org/packages/indigophp/webshop)
+[![Total Downloads](https://img.shields.io/packagist/dt/indigophp/ecommerce.svg?style=flat-square)](https://packagist.org/packages/indigophp/ecommerce)
 
-**IndigoPHP Webshop component.**
+**IndigoPHP Ecommerce component.**
 
 
 ## Install
@@ -12,7 +12,7 @@
 Via Composer
 
 ``` bash
-$ composer require indigophp/webshop
+$ composer require indigophp/ecommerce
 ```
 
 
@@ -25,7 +25,7 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 - [Tamás Barta](https://github.com/TamasBarta)
 - [Márk Sági-Kazár](https://github.com/sagikazarmark)
-- [All Contributors](https://github.com/indigophp/webshop/contributors)
+- [All Contributors](https://github.com/indigophp/ecommerce/contributors)
 
 
 ## License
